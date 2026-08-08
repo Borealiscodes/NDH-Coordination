@@ -1,0 +1,81 @@
+---
+artifact: subsystem_map.json
+lane: NDH-COORDINATION • Routing Geometry
+version: v1.0
+type: subsystem_map
+---
+
+{
+  "subsystems": [
+    {
+      "id": "constellation",
+      "altitude": 1,
+      "role": "semantic_substrate",
+      "interfaces": ["constellation.passive.md"],
+      "drift_risk": "medium"
+    },
+    {
+      "id": "triadic_core",
+      "altitude": 2,
+      "role": "algebraic_backbone",
+      "interfaces": ["triadic_core.passive.md"],
+      "drift_risk": "medium"
+    },
+    {
+      "id": "simulation_suite",
+      "altitude": 3,
+      "role": "geometry_proto_runtime",
+      "interfaces": ["simulation_suite.passive.md"],
+      "drift_risk": "medium"
+    },
+    {
+      "id": "provenance_layer",
+      "altitude": 4,
+      "role": "lineage_substrate",
+      "interfaces": ["provenance.passive.md"],
+      "drift_risk": "low"
+    },
+    {
+      "id": "research_pilot",
+      "altitude": 0,
+      "role": "mixed_altitude_exploratory",
+      "interfaces": ["research_pilot.passive.md"],
+      "drift_risk": "high"
+    },
+    {
+      "id": "ndh_core_architecture",
+      "altitude": 5,
+      "role": "structural_backbone",
+      "interfaces": [],
+      "drift_risk": "low"
+    }
+  ]
+}
+
+---
+Artifact: NDH-Coordination subsystem_map.json
+Lane: NDH-COORDINATION • Routing Geometry • v1.0
+
+Purpose:
+Define formal subsystem geometry for NDH-Coordination. Provides a routing-only,
+altitude-neutral structure for subsystem identification, boundary enforcement,
+and drift prevention across semantic, algebraic, geometric, simulation,
+provenance, and structural layers.
+
+Anchors:
+  NDH-Coordination Roadmap v1.0
+  NDH-Coordination-AltitudeMap_v1_0
+  NDH-Coordination-SubsystemMap_v1_0
+  NDH-Coordination-DriftIndicatorsSpec_v1_0
+  NDH-Coordination-AltitudeSeparationSpec_v1_0
+  constellation.passive.md
+  triadic_core.passive.md
+  simulation_suite.passive.md
+  provenance.passive.md
+  research_pilot.passive.md
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland • 2026
+Version: v1.0
+---
+
