@@ -1,0 +1,80 @@
+---
+artifact: routing_rules.json
+lane: NDH-COORDINATION • Routing Geometry
+version: v1.0
+type: routing_rules
+---
+
+{
+  "rules": [
+    {
+      "id": "semantic_detection",
+      "indicator": "semantic_content",
+      "route_to": "constellation",
+      "notes": "semantic substrate"
+    },
+    {
+      "id": "algebra_detection",
+      "indicator": "algebraic_structure",
+      "route_to": "triadic_core",
+      "notes": "algebraic backbone"
+    },
+    {
+      "id": "geometry_detection",
+      "indicator": "geometric_intuition",
+      "route_to": "simulation_suite",
+      "notes": "geometry + proto-runtime"
+    },
+    {
+      "id": "simulation_intent_detection",
+      "indicator": "runtime_phrasing",
+      "route_to": "simulation_suite",
+      "notes": "non-activated routing"
+    },
+    {
+      "id": "provenance_detection",
+      "indicator": "missing_provenance",
+      "route_to": "provenance_layer",
+      "notes": "omission drift prevention"
+    },
+    {
+      "id": "mixed_altitude_decomposition",
+      "indicator": "mixed_altitude_artifact",
+      "route_to": [
+        "constellation",
+        "triadic_core",
+        "simulation_suite",
+        "provenance_layer"
+      ],
+      "notes": "decompose and route"
+    }
+  ]
+}
+
+---
+Artifact: NDH-Coordination routing_rules.json
+Lane: NDH-COORDINATION • Routing Geometry • v1.0
+
+Purpose:
+Define formal routing rules for NDH-Coordination. Provides altitude-neutral,
+routing-only logic for detecting semantic, algebraic, geometric, simulation, and
+provenance indicators and routing them to the correct subsystem without
+interpretation, evaluation, or activation.
+
+Anchors:
+  NDH-Coordination Roadmap v1.0
+  NDH-Coordination-AltitudeMap_v1_0
+  NDH-Coordination-SubsystemMap_v1_0
+  NDH-Coordination-DriftIndicatorsSpec_v1_0
+  NDH-Coordination-AltitudeSeparationSpec_v1_0
+  constellation.passive.md
+  triadic_core.passive.md
+  simulation_suite.passive.md
+  provenance.passive.md
+  research_pilot.passive.md
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland • 2026
+Version: v1.0
+---
+
