@@ -1,0 +1,125 @@
+---
+artifact: altitude_map.json
+lane: NDH-COORDINATION • Routing Geometry
+version: v1.1
+type: altitude_map
+---
+
+{
+  "altitudes": [
+    {
+      "id": 0,
+      "name": "research_pilot",
+      "role": "mixed_altitude_exploratory",
+      "drift_risk": "high"
+    },
+    {
+      "id": 1,
+      "name": "constellation",
+      "role": "semantic_substrate",
+      "drift_risk": "medium"
+    },
+    {
+      "id": 2,
+      "name": "triadic_core",
+      "role": "algebraic_backbone",
+      "drift_risk": "medium"
+    },
+    {
+      "id": 3,
+      "name": "simulation_suite",
+      "role": "geometry_proto_runtime",
+      "drift_risk": "medium"
+    },
+    {
+      "id": 4,
+      "name": "provenance_layer",
+      "role": "lineage_substrate",
+      "drift_risk": "low"
+    },
+    {
+      "id": 5,
+      "name": "ndh_core_architecture",
+      "role": "structural_backbone",
+      "drift_risk": "low"
+    },
+
+    /* --- Constitutional Altitudes (Harmony–Concordance Co‑Sovereign) --- */
+
+    {
+      "id": 6,
+      "name": "strategy_altitude",
+      "role": "harmony_orchestration",
+      "drift_risk": "low",
+      "constitutional": true
+    },
+    {
+      "id": 7,
+      "name": "coordination_altitude",
+      "role": "concordance_routing",
+      "drift_risk": "low",
+      "constitutional": true
+    },
+
+    /* --- Skeleton Boundaries (Non‑Ranked, Altitude‑Neutral) --- */
+
+    {
+      "id": 8,
+      "name": "governance_skeleton",
+      "role": "stability_invariants",
+      "drift_risk": "low",
+      "constitutional": true
+    },
+    {
+      "id": 9,
+      "name": "expressive_skeleton",
+      "role": "posture_rendering",
+      "drift_risk": "medium",
+      "constitutional": true
+    },
+
+    /* --- Reflection & Operators (Constitutional but Non‑Governing) --- */
+
+    {
+      "id": 10,
+      "name": "reflection_altitude",
+      "role": "sci_80_intake",
+      "drift_risk": "medium",
+      "constitutional": true
+    },
+    {
+      "id": 11,
+      "name": "operator_lanes",
+      "role": "execution_geometry",
+      "drift_risk": "medium",
+      "constitutional": true
+    }
+  ]
+}
+
+---
+Artifact: NDH-Coordination altitude_map.json (v1.1)
+Lane: NDH-COORDINATION • Routing Geometry
+Purpose:
+Integrates constitutional altitudes and skeleton boundaries into the altitude-
+neutral routing geometry. Provides non-activating drift detection for Harmony,
+Concordance, governance skeleton, expressive skeleton, reflection altitude, and
+operator lanes while preserving subsystem sovereignty.
+
+Non-Activation Clause:
+This artifact is descriptive only. It does not activate, invoke, execute, or
+trigger any NDH subsystem, routing mechanism, ingestion envelope, reflection
+process, or expressive manifold.
+
+Provenance Anchors:
+  NDH-Coordination altitude_map.json (Archive v1.0)
+  NDH-Dual-Skeleton-Constitutional-Cascade v1.2
+  Harmony–Concordance Co-Sovereignty Layer
+  NDH-Coordination-AltitudeSeparationSpec v1.0
+  NDH-Coordination-DriftIndicatorsSpec v1.0
+
+Version: 1.1
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 09 August 2026 — 14:02 IST
+---
