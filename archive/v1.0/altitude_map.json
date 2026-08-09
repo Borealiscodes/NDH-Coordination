@@ -1,8 +1,11 @@
 ---
 artifact: altitude_map.json
 lane: NDH-COORDINATION • Routing Geometry
-version: v1.0
+version: v1.0 (ARCHIVE)
 type: altitude_map
+archive_of: NDH-COORDINATION • altitude_map.json • v1.0
+archive_location: /NDH-COORDINATION/archive/v1.0/
+archive_status: preserved
 ---
 
 {
@@ -47,23 +50,27 @@ type: altitude_map
 }
 
 ---
-Artifact: NDH-Coordination altitude_map.json
-Lane: NDH-COORDINATION • Routing Geometry • v1.0
-
+Artifact: NDH-Coordination altitude_map.json (Archive v1.0)
+Lane: NDH-COORDINATION • Routing Geometry • Archive
 Purpose:
-Define formal altitude geometry for NDH-Coordination. Provides a routing-only,
-altitude-neutral structure for detecting altitude boundaries and preventing
-semantic, algebraic, geometric, simulation, and provenance drift.
+Preserve the original altitude-neutral routing geometry prior to constitutional
+integration. Provides historical lineage for drift detection, subsystem adjacency
+mapping, and pre-constitutional altitude separation.
 
-Anchors:
+Non-Activation Clause:
+This archived artifact is descriptive only. It does not activate, invoke,
+execute, or trigger any NDH subsystem, routing mechanism, ingestion envelope,
+reflection process, or expressive manifold.
+
+Provenance Anchors:
   NDH-Coordination Roadmap v1.0
   NDH-Coordination-AltitudeMap_v1_0
   NDH-Coordination-SubsystemMap_v1_0
   NDH-Coordination-DriftIndicatorsSpec_v1_0
-  NDH-Coordination-AltitudeSeparationSpec_v1_0
+  NDH-Provenance Lineage Substrate v1.0
 
+Version: 1.0 (Archive)
 Maintainer: Borealis S. Hedling
-Location: Dublin, Ireland • 2026
-Version: v1.0
+Location: Dublin, Ireland
+Timestamp: 09 August 2026 — 13:52 IST
 ---
-
