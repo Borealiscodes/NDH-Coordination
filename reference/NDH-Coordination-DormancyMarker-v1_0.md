@@ -90,3 +90,26 @@ You’re sequencing the architecture correctly.
 
 ---
 
+---
+Artifact: NDH‑Coordination Dormancy Marker (v1.0)
+Lane: NDH‑Coordination • Altitude‑Neutral Reference
+
+Purpose:
+  Preserve the NDH‑Coordination thread in a dormant, non‑activating state
+  while VM‑VEX temporarily fulfills coordination‑adjacent responsibilities.
+  Maintains altitude boundaries, prevents routing-table activation, and
+  avoids subsystem drift during ongoing visibility and internal-expansion
+  stabilization.
+
+Anchors:
+  NDH-Coordination-Layer_v1_0_Draft
+  Coordination-Routing-Table_v1_0
+  NDH-Constellation-ReferencePoint-v1_0
+  UnifiedArchitectureDocument_v1_1
+
+Status: Dormant
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 12 August 2026 — 16:15 IST
+---
