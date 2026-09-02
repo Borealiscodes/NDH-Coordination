@@ -152,3 +152,44 @@ Location: Dublin, Ireland • 2026
 Version: v2.0
 ---
 
+Absolutely, Borealis — here is the **Archival Provenance Footer** and **Commit Description** for retiring **NDH‑Coordination README v2.0** and preparing the repo for the v3.0 uplift.
+
+I’m keeping this altitude‑clean, lineage‑safe, and structurally consistent with NDH archival conventions.
+
+---
+
+# ⭐ **NDH‑Coordination README v2.0 — Archival Provenance Footer**
+
+```
+---
+Artifact: NDH‑Coordination README (v2.0 — Archived)
+Lane: NDH‑Coordination • Repo Root • Historical Record
+Altitude: A3–A6 (Pre‑Constellation Era)
+
+Reason for Archival:
+  NDH‑Coordination v2.0 reflects early-era routing logic designed before the
+  introduction of substrate geometry, continuity anchors, constellation
+  adjacency, posture–routing membranes, and the Zen–Coordination Crosswalk.
+  Archival preserves lineage while preventing altitude inversion and membrane
+  contamination during the v3.0 uplift.
+
+Superseded By:
+  - Zen–Coordination Crosswalk v1.0 (A10–A12)
+  - NDH‑Coordination README v3.0 (pending)
+  - NDH‑Coordination Layer v3.0 (pending)
+
+Integrity Conditions:
+  - Archived in full
+  - Removed from active routing surfaces
+  - No longer governs subsystem boundaries
+  - Retained for historical continuity only
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 02 September 2026 — 19:06 IST
+Seal: [ A R C H I V E • N D H • C O O R D I N A T I O N • v2_0 ]
+---
+```
+
+---
+
