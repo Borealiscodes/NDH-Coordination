@@ -1,0 +1,69 @@
+{
+  "altitude_map_v3_0": {
+    "corridor": "A10-A12",
+
+    "altitudes": {
+      "A12": {
+        "name": "zen_posture_skeleton",
+        "role": "posture discipline and constellation alignment",
+        "interfaces": [
+          "posture.passive_v3_0.md",
+          "constellation.passive_v3_0.md"
+        ]
+      },
+
+      "A11": {
+        "name": "zen_holonomy_routing",
+        "role": "translation-safe routing via Zen-Bridge",
+        "interfaces": [
+          "zen_bridge.passive_v3_0.md",
+          "continuity.passive_v3_0.md"
+        ]
+      },
+
+      "A10": {
+        "name": "ndh_coordination_routing_skeleton",
+        "role": "primary routing layer for NDH",
+        "interfaces": [
+          "substrate.passive_v3_0.md"
+        ]
+      }
+    },
+
+    "constraints": {
+      "non_activating": true,
+      "routing_only": true,
+      "substrate_sealed": true,
+      "posture_aware": true,
+      "translation_safe": true
+    }
+  },
+
+  "provenance_footer": {
+    "artifact": "altitude_map_v3_0.json",
+    "lane": "NDH-Coordination • Routing Skeleton",
+    "altitude": "A10-A12 • Routing Corridor",
+
+    "purpose": "Define the machine-readable altitude map for NDH-Coordination v3.0. \
+Provide deterministic altitude placement, routing roles, and passive interface \
+bindings for posture-aware, translation-safe routing behavior.",
+
+    "anchors": {
+      "readme": "NDH-Coordination README v3.0",
+      "crosswalk": "Zen–Coordination Crosswalk v1.0",
+      "continuity": "Hybrid Continuity Document v1.0",
+      "substrate_seal": "NDH-Algebra Substrate Seal v1.0",
+      "bridge": "NDH-Zen-Bridge README v2.1",
+      "spine": "Consolidation Spine v1.0"
+    },
+
+    "non_activation_clause": "This artifact is structural-only. It does not activate NDH geometry, \
+holonomy engines, rendering systems, simulation pipelines, or sealed-layer logic.",
+
+    "version": "v3.0",
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "03 September 2026 — 00:27 IST",
+    "seal": "ALTITUDE_MAP • v3_0"
+  }
+}
