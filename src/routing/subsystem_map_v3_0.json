@@ -1,0 +1,93 @@
+{
+  "subsystem_map_v3_0": {
+    "corridor": "A10-A12",
+
+    "subsystems": {
+      "constellation": {
+        "role": "high-altitude expressive constellation routing",
+        "interfaces": [
+          "constellation.passive_v3_0.md"
+        ],
+        "altitude": "A12"
+      },
+
+      "zen_bridge": {
+        "role": "translation-safe routing between NDH and Zen expressive geometry",
+        "interfaces": [
+          "zen_bridge.passive_v3_0.md",
+          "continuity.passive_v3_0.md"
+        ],
+        "altitude": "A11"
+      },
+
+      "ndh_coordination": {
+        "role": "primary routing skeleton for NDH",
+        "interfaces": [
+          "substrate.passive_v3_0.md"
+        ],
+        "altitude": "A10"
+      },
+
+      "core": {
+        "role": "low-altitude structural logic and NDH foundational operations",
+        "interfaces": [],
+        "altitude": "A9"
+      },
+
+      "harmony": {
+        "role": "expressive geometry harmonization and non-governance blending",
+        "interfaces": [],
+        "altitude": "A8"
+      },
+
+      "simulation_suite": {
+        "role": "non-activating simulation adjacency (passive only)",
+        "interfaces": [],
+        "altitude": "A7"
+      },
+
+      "research_pilot": {
+        "role": "experimental routing adjacency (passive only)",
+        "interfaces": [],
+        "altitude": "A7"
+      }
+    },
+
+    "constraints": {
+      "non_activating": true,
+      "routing_only": true,
+      "substrate_sealed": true,
+      "posture_aware": true,
+      "translation_safe": true
+    }
+  },
+
+  "provenance_footer": {
+    "artifact": "subsystem_map_v3_0.json",
+    "lane": "NDH-Coordination • Routing Skeleton",
+    "altitude": "A10-A12 • Routing Corridor",
+
+    "purpose": "Define the machine-readable subsystem map for NDH-Coordination v3.0. \
+Provide deterministic subsystem placement, routing roles, and passive interface \
+bindings for posture-aware, translation-safe routing behavior across the NDH \
+multi-altitude architecture.",
+
+    "anchors": {
+      "readme": "NDH-Coordination README v3.0",
+      "crosswalk": "Zen–Coordination Crosswalk v1.0",
+      "continuity": "Hybrid Continuity Document v1.0",
+      "substrate_seal": "NDH-Algebra Substrate Seal v1.0",
+      "bridge": "NDH-Zen-Bridge README v2.1",
+      "spine": "Consolidation Spine v1.0"
+    },
+
+    "non_activation_clause": "This artifact is structural-only. It does not activate NDH geometry, \
+holonomy engines, rendering systems, simulation pipelines, or sealed-layer logic.",
+
+    "version": "v3.0",
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "03 September 2026 — 00:28 IST",
+    "seal": "SUBSYSTEM_MAP • v3_0"
+  }
+}
