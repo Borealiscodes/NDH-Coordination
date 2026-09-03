@@ -86,3 +86,39 @@ Seal: [ T H E R M A L • G L O S S A R Y • v1_0 ]
 
 ---
 
+# ⭐ **Migration Footer — Thermal Glossary Relocation (v1.0)**  
+### *NDH‑Coordination • Semantic Governance Layer • Structural‑Only*
+
+```
+---
+Artifact: Thermal Glossary v1.0 — Migration Footer
+Migration: Legacy Directory (/gossary) → NDH-Coordination/library/glossary/
+Altitude: A4–A6 • Semantic Governance • Non-Activating
+
+Purpose:
+  Relocate the Thermal Glossary v1.0 from the legacy /gossary directory into the
+  canonical Coordination Library Glossary. This migration consolidates semantic
+  vocabularies under a single governed directory, ensuring altitude discipline,
+  membrane sovereignty, semantic alignment, and drift neutrality prior to
+  Constitutional Sequencing v2.0.
+
+Rationale:
+  - /gossary is a pre-standardization legacy directory.
+  - Coordination Library Glossary is the canonical semantic-governance location.
+  - Consolidation prevents glossary fragmentation and semantic drift.
+  - Required for sequencing-grade semantic alignment.
+
+Non-Activation Clause:
+  This migration is structural-only. It does not activate NDH geometry,
+  sealed-layer logic, governance membranes, or constitutional altitude.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 03 September 2026 — 20:41 IST
+Seal: [ M I G R A T I O N • F O O T E R • v1_0 ]
+---
+```
+
+---
+
