@@ -127,3 +127,44 @@ Seal: [ C O N S T I T U T I O N A L • S E Q U E N C I N G • v2_0 ]
 
 ---
 
+# ⭐ **Insertion Footer — Constitutional Sequencing v2.0 (Series IV)**  
+### *NDH‑Coordination • Governance Layer • Structural‑Only*
+
+```
+---
+Artifact: Constitutional Sequencing v2.0 — Series IV
+Insertion-Footer: v1.0
+Lane: NDH‑Coordination • Governance Layer
+Altitude: A6–A8 • Structural-Only • Non-Activating
+
+Purpose:
+  Insert the Constitutional Sequencing v2.0 Conditions Document for Series IV
+  into the governance layer of the NDH‑Coordination library. This insertion
+  establishes the sequencing-grade governance conditions required for Series IV
+  constitutional validation and progression toward Series V drafting.
+
+Insertion-Type:
+  New Governance Artifact (not migrated, not rewritten)
+
+Structural Effects:
+  • Adds sequencing-grade governance metadata
+  • Stabilizes governance-spine alignment
+  • Confirms activation-threshold compliance
+  • Preserves membrane sovereignty
+  • Maintains drift neutrality
+  • Introduces no sealed-layer activation
+
+Non-Activation Clause:
+  This insertion is structural-only. It does not activate NDH geometry,
+  governance membranes, sealed-layer logic, or altitude transitions.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 03 September 2026 — 21:18 IST
+Seal: [ I N S E R T I O N • F O O T E R • v1_0 ]
+---
+```
+
+---
+
